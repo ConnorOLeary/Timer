@@ -14,3 +14,19 @@
 #include <iostream>
 
 #endif /* Controller_hpp */
+
+class Timer
+{
+private:
+    clock_t executionTime;
+protected:
+    
+public:
+    Timer();
+    void startTimer();
+    void stopTimer();
+    void resetTimer();
+    void displayInformation();
+    long getTimeInMicroseconds();
+    
+};
